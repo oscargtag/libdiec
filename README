@@ -1,0 +1,13 @@
+libdiec
+===================
+Pretty basic header file for C/++ programs. Provides crashes error information handling.
+
+Internal fns:
+
+die(enum CRASH_CODE, char*)
+- CRASH_CODE can be got with:
+        
+            extern enum CRASH_CODE
+- the char* is a custom message outputted when the program crashes.
+
+See source for CRASH_CODE info
